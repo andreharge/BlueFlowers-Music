@@ -1,0 +1,454 @@
+    /* ITEMS */
+    
+    #item1 {
+        background-image: url(images/shop/westerman-confirmation.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    #item2 {
+        background-image: url(images/shop/westerman-ark.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    #item3 {
+        background-image: url(images/shop/puma-onlytrying-moon.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    #item4 {
+        background-image: url(images/shop/puma-blood-loss.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    #item5 {
+        background-image: url(images/shop/long-sleeve-front.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    #item6 {
+        background-image: url(images/shop/shirt.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    #item7 {
+        background-image: url(images/shop/gotts-vol1.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    #item8 {
+        background-image: url(images/shop/gotts-vol2.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    #item9 {
+        background-image: url(images/shop/fox-alley.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    #item10 {
+        background-image: url(images/shop/westerman-call.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    /* IIEMS - END */
+
+    /* OVERLAY */
+
+    .bio-overlay {
+        position: fixed;
+        top: 0px;
+        left: 0px;
+        width: 100%;
+        height: 1000px;
+        background-color: rgb(0,0,0,0.8);
+        z-index: 8;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        visibility: hidden;
+        opacity: 0;
+        transition: all 0.1s ease-in;
+    }
+
+    .bio-box {
+        background-color: lightgrey;
+        width: 50%;
+        height: 400px;
+        display: flex;
+        align-items: flex-end;
+        border-radius: 10px;
+        position: relative;
+    }
+
+    .bio-box:hover {
+        border: 1px solid white;
+    }
+
+    .bio-content {
+        height: auto;
+        border-radius: 0px 0px 10px 10px;
+        background: rgba(0, 0, 0, 0.1);
+        backdrop-filter: blur(29px);
+        -webkit-backdrop-filter: blur(29px);
+        padding: 20px 20px 0px 20px;
+    }
+
+    .bio-name {
+        font-family: inter-tight-medium, sans-serif;
+        font-size: 33px;
+        text-decoration: none;
+        padding-bottom: 5px;
+        color: white;
+    }
+
+    .bio-text {
+        color: white;
+        font-family: inter-light, sans-serif;
+        font-size: 14px;
+        line-height: 20px;
+        margin: 10px 0px 20px 0px;
+    }
+
+    .close {
+        color: white;
+        text-decoration: none;
+        position: absolute;
+        top: 0px;
+        left: 20px;
+        font-size: 40px;
+    }
+
+    #pax-bio .bio-box {
+        background-image: url(images/grandpax-2.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: bottom;
+    }
+
+    #puma-bio .bio-box {
+        background-image: url(images/pumablue.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: top;
+    }
+
+    #gotts-bio .bio-box {
+        background-image: url(images/gotts-1.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+
+    #westerman-bio .bio-box {
+        background-image: url(images/westerman-2.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+
+    #yanya-bio .bio-box {
+        background-image: url(images/yanya.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+
+    #fox-bio .bio-box {
+        background-image: url(images/fox-1.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+
+    #joviale-bio .bio-box {
+        background-image: url(images/Joviale-1.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+
+    #eddie-bio .bio-box {
+        background-image: url(images/chacon-1.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+
+    #puma-bio:target {
+        visibility: visible;
+        opacity: 1;
+    }
+
+    #pax-bio:target {
+        visibility: visible;
+        opacity: 1;
+    }
+
+    #gotts-bio:target {
+        visibility: visible;
+        opacity: 1;
+    }
+
+    #westerman-bio:target {
+        visibility: visible;
+        opacity: 1;
+    }
+
+    #yanya-bio:target {
+        visibility: visible;
+        opacity: 1;
+    }
+
+    #fox-bio:target {
+        visibility: visible;
+        opacity: 1;
+    }
+
+    #joviale-bio:target {
+        visibility: visible;
+        opacity: 1;
+    }
+
+    #eddie-bio:target {
+        visibility: visible;
+        opacity: 1;
+    }
+
+    /* OVERLAY - END */
+
+    /* MAILING LIST */
+
+    #mailing-list {
+        background-image: url(images/Background.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 100%;
+        height: 300px;
+        padding: 150px 26px 26px 26px;
+        margin-top: 150px;
+        position: relative;
+    }
+
+    .mailing-list-input {
+        display: flex;
+    }
+
+    .mailing-list-input input {
+        background-color: whitesmoke;
+        border: none;
+        border-radius: 0px 3px 3px 0px;
+        width: 36%;
+        margin-right: 20px;
+        font-family: inter-light, sans-serif;
+        color: rgb(179, 179, 179);
+    }
+
+    #ml-icon {
+        background-color: whitesmoke;
+        background-image: url(icons/mail-icon.png);
+        background-repeat: no-repeat;
+        background-size: 26px;
+        background-position: center;
+        border-radius: 3px 0px 0px 3px;
+        width: 40px;
+        height: 40px;
+    }
+
+    label {
+        color: white;
+        font-family: inter-tight-light, sans-serif;
+        font-size: 33px;
+        position: absolute;
+        top: 100px;
+    }
+
+    #signup-btn {
+        background-color: var(--blue);
+        color: white;
+        font-family: inter-regular, sans-serif;
+        width: 130px;
+        font-size: 19px;
+        border: none;
+        border-radius: 3px;
+    }
+
+    #signup-btn:hover {
+        opacity: 0.8;
+        cursor: pointer;
+    }
+
+    /* MAILING LIST - END */
+
+    /* CONTACT */
+
+    #contact {
+        width: 100%;
+        height: auto;
+        display: inline-flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    #contact-label {
+        background-color: var(--blue);
+        width: 414px;
+        height: 700px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #contact-label p {
+        font-family: inter-light, sans-serif;
+        font-size: 33px;
+        color: white;
+    }
+
+    #contact-form {
+        background-color: var(--bg);
+        width: 60%;
+        height: 700px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .contact-input {
+        background-color: var(--bg);
+        padding: 20px;
+        width: 450px;
+        border: none;
+        border-bottom: 1px solid var(--contact);
+        border-radius: 3px;
+        font-family: inter-light, sans-serif;
+        color: var(--contact);
+        margin: 10px 0px 10px 0px;
+    }
+
+    #contact-form input::placeholder {
+        color: var(--contact);
+    }
+
+    #contact-form textarea::placeholder {
+        color: var(--contact);
+    }
+
+    #contact-form textarea {
+        background-color: var(--bg);
+        width: 450px;
+        padding: 20px;
+        border: 1px solid var(--contact);
+        border-radius: 3px;
+        color: var(--blue);
+        font-family: inter-light, sans-serif;
+        margin: 30px 0px 20px 0px;
+    }
+
+    #contact-submit {
+        background-color: var(--blue);
+        width: 130px;
+        padding: 15px;
+        font-size: 16px;
+        font-family: inter-regular, sans-serif;
+        border: none;
+        border-radius: 3px;
+        color: white;
+        align-self: flex-start;
+        margin-left: 85px;
+    }
+
+    #contact-submit:hover {
+        opacity: 0.8;
+        cursor: pointer;
+    }
+
+    /* CONTACT - END */
+
+    /* LINKS */
+
+    #social-links {
+        position: absolute;
+        top: 70px;
+        left: -80px;
+        z-index: 20;
+        margin: 20px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .link-box {
+        width: 35px;
+        height: 35px;
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: center;
+        margin: 8px;
+    }
+
+    #twitter-link {
+        background-image: url(icons/twitter.png);
+    }
+
+    #ig-link {
+        background-image: url(icons/instagram.png);
+    }
+
+    #youtube-link {
+        background-image: url(icons/youtube.png);
+    }
+
+    #facebook-link {
+        background-image: url(icons/facebook-square.png);
+    }
+
+    #spotify-link {
+        background-image: url(icons/spotify.png);
+    }
+
+    #soundcloud-link {
+        background-image: url(icons/soundcloud.png);
+    }
+
+
+
+    #twitter-link:hover {
+        background-image: url(icons/twitter-blue.png);
+    }
+    #ig-link:hover {
+        background-image: url(icons/instagram-blue.png);
+    }
+    #youtube-link:hover {
+        background-image: url(icons/youtube-blue.png);
+    }
+    #facebook-link:hover {
+        background-image: url(icons/facebook-blue.png);
+    }
+    #spotify-link:hover {
+        background-image: url(icons/spotify-blue-.png);
+    }
+    #soundcloud-link:hover {
+        background-image: url(icons/soundcloud-blue.png);
+    }
+
+    /* LINKS - END */
+
+    .theme-toggle {
+        position: absolute;
+        top: 0px;
+        right: 0px;
+        margin: 10px;
+        font-family: inter-light, sans-serif;
+        border: 1px solid var(--contact);
+        border-radius: 3px;
+        padding: 5px;
+        background-color: var(--bg);
+        color: var(--contact);
+    }
+
+    .theme-toggle:hover {
+        opacity: 0.5;
+        cursor: pointer;
+    }

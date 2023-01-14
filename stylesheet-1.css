@@ -1,0 +1,58 @@
+/* fonts: https://fonts.google.com/share?selection.family=Inter%20Tight:ital,wght@0,400;0,500;1,300%7CInter:wght@300;400;500;700 */
+
+:root {
+    --bg: whitesmoke;
+    --fg: #111111;
+    --blue: #1635E2;
+    --contact: #1635E2;
+}
+
+:root[theme="dark"] {
+    --bg: #1635E2;
+    --contact: white;
+}
+
+@font-face {
+    font-family: 'inter-regular';
+    src: url(Fonts/Inter-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'inter-light';
+    src: url(Fonts/Inter-Light.ttf);
+}
+
+@font-face {
+    font-family: 'inter-medium';
+    src: url(Fonts/Inter-Medium.ttf);
+}
+
+@font-face {
+    font-family: 'inter-bold';
+    src: url(Fonts/Inter-Bold.ttf);
+}
+
+@font-face {
+    font-family: 'inter-tight-light';
+    src: url(Fonts/InterTight-Light.ttf);
+}
+
+@font-face {
+    font-family: 'inter-tight-medium';
+    src: url(Fonts/InterTight-Medium.ttf);
+}
+
+@font-face {
+    font-family: 'inter-tight-regular';
+    src: url(Fonts/InterTight-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'inter-tight-bold';
+    src: url(Fonts/InterTight-Bold.ttf);
+}
+
+@font-face {
+    font-family: 'barlow-thin';
+    src: url(Fonts/BarlowCondensed-Thin.ttf)
+}
